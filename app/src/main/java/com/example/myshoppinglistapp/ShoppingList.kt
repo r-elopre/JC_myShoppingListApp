@@ -50,6 +50,7 @@ fun ShoppingListApp(){
                         title = { Text("Add shopping item")}, text = {
                             Column {
                                 OutlinedTextField(value = itemName , onValueChange ={itemName = it}, singleLine = true, modifier = Modifier.fillMaxWidth().padding(8.dp) )
+                                OutlinedTextField(value = itemQuantity , onValueChange ={itemQuantity = it}, singleLine = true, modifier = Modifier.fillMaxWidth().padding(8.dp) )
                             }
                 })
 
